@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Unknown Person</title>
+        <meta charset = "UTF-8" />
+    </head>
+    <body>
+        <div style="background-image: url('bg2.jpg');height = 100"> 
+        <form action="#" method="post">
+        <h1>Form for unknown person</h1>
+        
+        <h3>Patient Details</h3>
+        <label for="accident">Has there been a road accident? </label>
+        <select id="accident">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+        <br>
+        <label for="sex">Is the patient male or female?</label>
+        <select id="sex">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br>
+        <br>
+        <label for="num">Contact number of Unknown:</label>
+        <input type="number" id="num" name="num" min="10" max="10">
+        
+            <p>
+                <label>Check relevant symptoms:</label>
+                
+                <input type = "checkbox" id = "symCough" value = "cough"/>
+                <label for = "symCough">cough</label>
+                
+                <input type = "checkbox" id= "symFever" value = "fever" />
+                <label for = "symFever">fever</label>
+
+                <input type = "checkbox" id= "symChest" value = "chest pain" />
+                <label for = "symChest">chest pain</label>
+                
+                <input type = "checkbox" id= "symBreath" value = "shortness of breath"/>
+                <label for = "symBreath">shortness of breath</label>
+
+                <input type = "checkbox" id= "symdiz" value = "dizziness" />
+                <label for = "symdiz">dizziness</label>
+
+                <input type = "checkbox" id= "symsweat" value = "sweat" />
+                <label for = "symsweat">sweat</label>
+
+                <input type = "checkbox" id= "symvomiting" value = "vomiting"/>
+                <label for = "symvomiting">vomiting</label>
+
+                <input type = "checkbox" id= "symsuicidal" value = "feeling suicidal"/>
+                <label for = "symsuicidal">feeling suicidal</label>
+                
+                <input type = "checkbox" id= "symunr" value = "unresponsiveness"/>
+                <label for = "symunr">unresponsiveness</label>
+
+                <input type = "checkbox" id= "symsleeplessness" value = "sleeplessness"/>
+                <label for = "symsleeplessness">sleeplessness</label>
+
+                <input type = "checkbox" id= "symblackout" value = "blackout"/>
+                <label for = "symblackout">blackout</label>
+
+                <input type = "checkbox" id= "symbreath" value = "breath sounds decreased"/>
+                <label for = "symbreath">breath sounds decreased</label>
+
+                <input type = "checkbox" id= "symwheezing" value = "wheezing"/>
+                <label for = "symwheezing">wheezing</label>
+
+                <input type = "checkbox" id= "symdiarrhea" value = "diarrhea"/>
+                <label for = "symdiarrhea">diarrhea</label>
+
+                <input type = "checkbox" id= "symurine" value = "difficulty passing urine"/>
+                <label for = "symurine">difficulty passing urine</label>
+
+                <input type = "checkbox" id= "symnausea" value = "nausea"/>
+                <label for = "symnausea">nausea</label>
+
+            </p>
+
+            <h3>Any other details you'd like to provide regarding the patient?</h3>
+            <input type="text" id="other" name="other">
+            <br>
+            <br>
+            <label for="image">If any wound or severe accident:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+
+            <br>
+            <br>
+            <input type="submit" value="Submit Form">
+
+        </form>
+    </body>
+</html>
