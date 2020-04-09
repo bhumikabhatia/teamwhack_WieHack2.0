@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>Form for Ambulance Staff</title>
+   </head>
+<body>
+<div style="background-image: url('bg2.jpg');height = 100%">
+
+<h1>Form for Ambulance Staff </h1>
+<div class="main">
+<form >
+	<h3>Patient's Details</h3>
+
+	<label class="firstlabel" for="name"> Name:</label>
+    <input class = "firstname" id="name" type="text" required>
+
+	<label class="name" for="age" > Age:</label>
+	<input class="age" id="age" type="number" required>
+
+	<label class="name" for="ph"> Phone Number:</label>
+	<input class="age" id="ph" type="number" required>
+
+
+	<label class ="firstlabel" for ="ge" > Gender :</label>
+	 <select id="ge" >
+	 	<option value="Male">Male</option>
+	 	<option value="Female">Female</option>
+	 </select>
+
+	 <label class="for="ad" > Aadhar No. :</label>
+	 <input id="ad" type="number" >
+	<h3>Guardian’s Details</h3>
+	<label class="firstlabel" for="name" > Name:</label>
+	<input class="firstname" id="name" type="text" required>
+
+	<label class="name" for="age" > Age:</label>
+	<input class="age" id="age" type="number" required>
+
+	<label class="name" for="ph" > Phone Number:</label>
+	<input class="age" id="ph" type="number" required>
+	<label class="firstname" for="accident">Has there been an accident? </label>
+        <select id="accident">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h3>Symptoms</h3>
+        <label  for ="a" > chest pain:</label>
+        <input  name="sym" id="a" type = "checkbox">
+        <label  for ="b" > shortness of breath:</label>
+        <input name="sym" id="b" type = "checkbox">
+        <label  for ="c" > dizziness:</label>
+        <input name="sym" id="c" type = "checkbox">
+        <label for ="d" > sweat:</label>
+        <input name="sym" id="d" type = "checkbox">
+        <label for ="e" > tiredness:</label>
+        <input name="sym" id="e" type = "checkbox">
+        <label for ="f" > unresponsiveness:</label>
+        <input name="sym" id="f" type = "checkbox">
+        <label for ="g" > vomitting:</label>
+        <input name="sym" id="g" type = "checkbox">
+        <label for ="h" > suicidal:</label>
+        <input name="sym" id="h" type = "checkbox">
+        <label for ="i" > sleeplessness:</label>
+        <input name="sym" id="i" type = "checkbox">
+        <label for ="j" > blackout:</label>
+        <input name="sym" id="j" type = "checkbox">
+        <label for ="k" > Cough:</label>
+        <input name="sym" id="k" type = "checkbox">
+        <label for ="l" > fever:</label>
+        <input name="sym" id="l" type = "checkbox">
+        <label for ="m" > breath sounds decreased:</label>
+        <input name="sym" id="m" type = "checkbox">
+        <label for ="n" > wheezing:</label>
+        <input name="sym" id="n" type = "checkbox">
+        <label for ="o" > diarrhea:</label>
+        <input name="sym" id="o" type = "checkbox">
+        <label for ="p" > difficulty passing urine:</label>
+        <input name="sym" id="p" type = "checkbox">
+        <label for ="q" > chest pain:</label>
+        <input name="sym" id="q" type = "checkbox">
+        <label for ="r" > nausea:</label>
+        <input name="sym" id="r" type = "checkbox">
+        <label for ="s" > palpitations:</label>
+        <input name="sym" id="s" type = "checkbox">
+        <label for ="t" > other:</label>
+        <input name="sym" id="t" type = "checkbox">
+        <h3>Mention Other Symptoms</h3>
+        <textarea></textarea>
+      <h3> Previous Medical History </h3>
+<select name="Previous History">
+	<option> Diabetes</option>
+	<option> Heart Patient </option>
+	<option> Hypertension</option>
+	<option>Thyroid</option>
+	<option> Multiple</option>
+	</select>	
+    <h3> Patient's Chart</h3>
+        <h4>Blood Pressure</h4>
+     <label class="age"for ="bp"> Diastolic:</label>
+     <input class="age"id="bp" type = "number">
+     <label class ="age"for = "bp2"> Systolic:</label>
+     <input class="age"id="bp2" type = "number">
+        <h4>Pulse Rate</h4>
+        <label class="age" for = "pulse">Pulse Rate:</label>
+        <input class="age" id="pulse" type="number">
+        <button>Submit</button>
+</form>
+</div>
+</body>
+</html>
